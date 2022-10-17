@@ -10,8 +10,8 @@ app = Flask(__name__)
 
 @app.route("/webhook", methods=['POST'])
 def webhook():
-    user = "david-ruffin"
-    cred = "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"
+    user = "<github username>"
+    cred = "<github token>"
     webhook = request.json
     if webhook is None:
         print("POST was not fomatted in JSON")
