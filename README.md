@@ -7,7 +7,7 @@ Hookie is a simple web service that listens for organization events to know when
 
 
 ## Usage
-- Install the following:
+- Install the following on RedHat 8.6 (Oopta):
   - [Python 2](https://www.python.org/downloads/)
     - `pip install -r requirements.txt`
   - [Flask](https://flask.palletsprojects.com/en/1.1.x/installation/#installation)
