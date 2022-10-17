@@ -6,8 +6,22 @@
 Hookie is a simple web service that listens for organization events to know when a repo is created. When the repo is created, Hookie automates the protection of the main branch In addition, it notifies you with an @mention in an issue withing your repo that illustrates the protections that were added.
 
 
-## Usage
-- Install the following on RedHat 8.6 (Oopta):
+## Setup
+- Run the install.sh script on RedHat 8.6 (Oopta):
+- Contains the following dependencies
+  - Python3
+  - pip3
+  - flask
+  - ngrok
+
+- Configure webhooks in Github
+- Configure Ngrok
+
+- Notes
+  - Disabled firewall for testing
+- Add the following to the hookie.py script
+  - github username
+  - github token
   - [Python 2](https://www.python.org/downloads/)
     - `pip install -r requirements.txt`
   - [Flask](https://flask.palletsprojects.com/en/1.1.x/installation/#installation)
