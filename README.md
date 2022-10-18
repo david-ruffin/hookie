@@ -21,6 +21,9 @@ Hookie is a simple web service that listens for organization events to know when
 - Run install script.sh
   1. Run the `install.sh` script on a RHEL 8 linux instance
   2. Copy the `Forwarding http` url (e.g., http://1234-123-123-123-123.ngrok.io)
+- Add the following to the `hookie.py` script
+  1. github username
+  2. github token (only for testing)
 - Configure webhooks in Github
   1. Create an organization secret if one does not exist already and assign it to relevant repositories.
   2. Navigate to repository `Settings` page.
