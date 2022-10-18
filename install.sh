@@ -10,7 +10,7 @@ pip3 install flask
 pip3 install pyngrok
 
 # Run ngrok
-ngrok authtoken 12345
+ngrok authtoken <ngrok token>
 
 # Disable firewall for testing in dev
 for i in stop disable; do systemctl $i firewalld; done
