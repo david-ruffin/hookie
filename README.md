@@ -20,7 +20,7 @@ Hookie is a simple web service that listens for organization events to know when
   3. Add your ngrok token to `install.sh` file
 - Run install script.sh
   1. Run the `install.sh` script on a RHEL 8 linux instance
-  2. Copy the `Forwarding http` url (e.g., http://1234-123-123-123-123.ngrok.io
+  2. Copy the `Forwarding http` url (e.g., http://1234-123-123-123-123.ngrok.io)
 - Configure webhooks in Github
   1. Create an organization secret if one does not exist already and assign it to relevant repositories.
   2. Navigate to repository `Settings` page.
