@@ -1,6 +1,7 @@
 # Hookie - GitHub solution with webhooks
 
 Hookie is a simple web service that listens for organization events to know when a repo is created. When the repo is created, Hookie automates the protection of the main branch In addition, it notifies you with an @mention in an issue withing your repo that illustrates the protections that were added.
+<h3 align="center">Made for :octocat: with :heart: + :coffee:</h3>
 
 ## Setup
 - Configure Ngrok
