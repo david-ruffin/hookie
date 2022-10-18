@@ -15,6 +15,10 @@ Hookie is a simple web service that listens for organization events to know when
   - ngrok
 
 - Configure webhooks in Github
+  1. Create an organization secret if one does not exist already and assign it to relevant repositories.
+  2. Navigate to repository `Settings` page.
+  3. Navigate to `Webhooks`, under `Code and automation`.
+  4. Click `Add webhook` button. (Confirm access/authorization by logging in, if prompted).
 - Configure Ngrok
 
 - Notes
