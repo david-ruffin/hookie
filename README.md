@@ -15,11 +15,21 @@ Hookie is a simple web service that listens for organization events to know when
   - ngrok
 
 - Configure Ngrok
+  1. Create account at https://ngrok.com/
+  2. Copy ONLY your ngrok token
+  3. Add your ngrok token to `install.sh` file
+- Run install script.sh
+  1. Run the `install.sh` script on a RHEL 8 linux instance
+  2. Copy the `Forwarding http` url (e.g., http://1234-123-123-123-123.ngrok.io
 - Configure webhooks in Github
   1. Create an organization secret if one does not exist already and assign it to relevant repositories.
   2. Navigate to repository `Settings` page.
-  3. Navigate to `Webhooks`, under `Code and automation`.
+  3. Navigate to `Webhooks`, under `Code, planning, and automation`.
   4. Click `Add webhook` button. (Confirm access/authorization by logging in, if prompted).
+  5. Add the copied url (from the install script) and add it to the `Payload URL' field.
+  5. Content type is `application/json`
+  6. Under `Which events would you like to trigger this webhook?` select `Lwt me select individual events.` and select `Reposistories` and click `Update webhook`
+
 
 
 - Notes
