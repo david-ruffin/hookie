@@ -1,5 +1,4 @@
-# This is for rhel8 image
-# Red Hat Enterprise Linux release 8.6 (Ootpa)
+# Red Hat Enterprise Linux release 8.6 (Ootpa) image
 
 # For rhel 8 based images
 subscription-manager register --org=12345 --activationkey=RHEL
