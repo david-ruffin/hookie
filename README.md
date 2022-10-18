@@ -48,8 +48,3 @@ Hookie is a simple web service that listens for organization events to know when
 ## Notes and assumptions
 - Github repo must be Public and a readme needs to be added. If not, error message will display what the issues are
 - Disabled firewall for testing
-
-## Bugs and improvements
-- Payloads are capped at 25 MB. If your event generates a larger payload, a webhook will not be fired. This may happen, for example, on a create event if many branches or tags are pushed at once. We suggest monitoring your payload size to ensure delivery. See [webhooks docs](https://developer.github.com/webhooks/)
-- There is a 1 second Delay built in to the code which is NOT ideal. It seems the code is checking for the main branch before it is finished creating.
-- This could be done with AWS Lambda and an API Gateway.
