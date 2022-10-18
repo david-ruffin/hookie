@@ -28,7 +28,7 @@ Hookie is a simple web service that listens for organization events to know when
   4. Click `Add webhook` button. (Confirm access/authorization by logging in, if prompted).
   5. Add the copied url (from the install script) and add it to the `Payload URL' field.
   5. Content type is `application/json`
-  6. Under `Which events would you like to trigger this webhook?` select `Lwt me select individual events.` and select `Reposistories` and click `Update webhook`
+  6. Under `Which events would you like to trigger this webhook?` select `Let me select individual events.` and select `Reposistories` and click `Update webhook`
 
 
 
