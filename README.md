@@ -29,7 +29,7 @@ Hookie is a simple web service that listens for organization events to know when
   6. Under `Which events would you like to trigger this webhook?` select `Let me select individual events.` and select `Reposistories` and click `Update webhook`
 
 ## Running Application
-- When creating a repo, make sure it is set to Public and add a readme file
+- When creating a repo, make sure it is set to `Public` and add a `README.md` file
 - When the repo is created, it will create the `Branch protection rules` and add an @mention to the `Issue`.
 
 ## Related Documentation
